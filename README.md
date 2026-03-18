@@ -91,33 +91,36 @@ cp .env.example .env
 ```bash
 uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
-## 🚀 Демонстрация работы. Вопрос - Ответ к LLM
+## 🚀 Демонстрация работы.
 
 ### Регистрация пользователя
-![Регистрация](screenshots/Регистрация1.png)
-![Регистрация](screenshots/Регистрация2.png)
+![Регистрация](screenshots/register_2.png)
+
+![Регистрация](screenshots/register_1.png)
 
 ### Логин и получение JWT
-![Логин и JWT](screenshots/логин_и_получение_JWT1.png)
-![Логин и JWT](screenshots/логин_и_получение_JWT2.png)
+![Логин и JWT](screenshots/login_2.png)
 
 ### Авторизация через Swagger
-![Авторизация](screenshots/Регистрация1.png)
-![Авторизация](screenshots/Регистрация2.png)
+![Авторизация](screenshots/Auth1.png)
+
+![Авторизация](screenshots/Auth2.png)
 
 ### вызов POST / chat(пример1)
-![Chat запрос](screenshots/Вопрос1.png)
-![Chat ответ](screenshots/Ответ1.png)
+![Chat запрос](screenshots/chat_request1.png)
+
+![Chat ответ](screenshots/chat_response1.png)
 
 ### вызов POST / chat (пример2)
-![Chat запрос](screenshots/Вопрос2.png)
-![Chat ответ](screenshots/Ответ2.png)
+![Chat запрос](screenshots/chat_request2.png)
+
+![Chat ответ](screenshots/chat_response2.png)
 
 ### получение истории через GET /chat/history
-![Получение истории](screenshots/Получение_истории.png)
+![Получение истории](screenshots/history_get.png)
 
 ### удаление истории через DELETE /chat/history
-![Удаление истории](screenshots/Удаление_истории.png)
+![Удаление истории](screenshots/history_delete.png)
 
 
 
