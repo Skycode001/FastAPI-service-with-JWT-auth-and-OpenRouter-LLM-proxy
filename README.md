@@ -93,20 +93,32 @@ uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 ## 🚀 Демонстрация работы. Вопрос - Ответ к LLM
 
-### Отправка запроса к LLM (пример1)
+### Регистрация пользователя
+![Регистрация](screenshots/Регистрация1.png)
+![Регистрация](screenshots/Регистрация2.png)
+
+### Логин и получение JWT
+![Логин и JWT](screenshots/логин_и_получение_JWT1.png)
+![Логин и JWT](screenshots/логин_и_получение_JWT2.png)
+
+### Авторизация через Swagger
+![Авторизация](screenshots/Регистрация1.png)
+![Авторизация](screenshots/Регистрация2.png)
+
+### вызов POST / chat(пример1)
 ![Chat запрос](screenshots/Вопрос1.png)
-### Ответ LLM (пример1)
 ![Chat ответ](screenshots/Ответ1.png)
 
-### Отправка запроса к LLM (пример2)
+### вызов POST / chat (пример2)
 ![Chat запрос](screenshots/Вопрос2.png)
-### Ответ LLM (пример2)
 ![Chat ответ](screenshots/Ответ2.png)
 
-## 🚀 Получение истории диалога
+### получение истории через GET /chat/history
+![Получение истории](screenshots/Получение_истории.png)
 
-### Отправка запроса к LLM (пример1)
-![История](screenshots/История_чата.png)
+### удаление истории через DELETE /chat/history
+![Удаление истории](screenshots/Удаление_истории.png)
+
 
 
 ## 🔧 API Endpoints
