@@ -1,0 +1,41 @@
+# Virtual environment
+env/
+venv/
+.venv
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.ruff_cache/
+
+# Database
+app.db
+*.sqlite3
+*.sqlite
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Logs
+logs/
+*.log
+
+# Lock files (uv создает свой lock файл)
+uv.lock
+poetry.lock  # не нужен, но пусть будет
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
