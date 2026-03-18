@@ -102,11 +102,9 @@ uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ![Логин и JWT](screenshots/login_2.png)
 
 ### Авторизация через Swagger
-![Авторизация](screenshots/Auth1.png)
-
 ![Авторизация](screenshots/Auth2.png)
 
-### вызов POST / chat(пример1)
+### вызов POST / chat (пример1)
 ![Chat запрос](screenshots/chat_request1.png)
 
 ![Chat ответ](screenshots/chat_response1.png)
