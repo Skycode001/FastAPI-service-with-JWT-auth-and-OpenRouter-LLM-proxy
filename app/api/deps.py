@@ -13,7 +13,7 @@ from app.usecases.chat import ChatUseCase
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
 
-async def get_session() -> AsyncSession:
+async def get_session() -> AsyncSession:  # Теперь AsyncSession определен
     async with AsyncSessionLocal() as session:
         yield session
 
